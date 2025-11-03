@@ -15,12 +15,12 @@ It supports persistent chat history, making conversations seamless and natural.
 
 ## 🧩 Features
 
-✅ Modern chat-style interface with Streamlit’s chat components
-✅ Persistent chat history stored during the session
-✅ Integrated with Groq’s `llama-3.1-8b-instant` LLM model
-✅ Graceful error handling for API issues
-✅ Lightweight, responsive, and beginner-friendly
-✅ Easily deployable on Hugging Face Spaces or locally
+* Modern chat-style interface with Streamlit’s chat components
+* Persistent chat history stored during the session
+* Integrated with Groq’s `llama-3.1-8b-instant` LLM model
+* Graceful error handling for API issues
+* Lightweight, responsive, and beginner-friendly
+* Easily deployable on Hugging Face Spaces or locally
 
 ---
 
