@@ -1,58 +1,59 @@
 # 💬 Groq LLM Chatbot — Streamlit + Hugging Face Deployment
 
-This project is part of **Module 4** of the **NCEAC–HEC Generative AI Training (Cohort 1)** by **Pak Angels**.  
-It demonstrates how to build, test, and deploy a **Streamlit-based LLM chatbot** powered by the **Groq API**.
+This project is part of **Module 4** of the **NCEAC–HEC Generative AI Training (Cohort 1)** by **Pak Angels**.
+It demonstrates how to build, test, and deploy a **Streamlit-based LLM chatbot** powered by the **Groq API** with a modern conversational UI.
 
 ---
 
 ## 🚀 Project Overview
 
-This chatbot allows users to interact with a fast, free **Large Language Model (LLM)** hosted by **Groq**.  
-It’s built using **Streamlit** for the front-end interface and deployed seamlessly on **Hugging Face Spaces**.
+This chatbot enables users to have an interactive conversation with a fast, free **Large Language Model (LLM)** hosted by **Groq**.
+The front-end interface is built with **Streamlit**, using the latest chat UI components (`st.chat_input()` and `st.chat_message()`), and the backend leverages the Groq API.
+It supports persistent chat history, making conversations seamless and natural.
 
 ---
 
 ## 🧩 Features
 
-✅ Chat interface built with Streamlit  
-✅ Integrated with Groq’s `llama-3.1-8b-instant` model  
-✅ Deployed publicly on Hugging Face Spaces  
-✅ Supports text-based question answering and conversation  
+✅ Modern chat-style interface with Streamlit’s chat components
+✅ Persistent chat history stored during the session
+✅ Integrated with Groq’s `llama-3.1-8b-instant` LLM model
+✅ Graceful error handling for API issues
 ✅ Lightweight, responsive, and beginner-friendly
+✅ Easily deployable on Hugging Face Spaces or locally
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Component | Description |
-|------------|-------------|
-| **Frontend** | Streamlit |
-| **Backend / LLM API** | Groq |
-| **Deployment** | Hugging Face Spaces |
-| **Language** | Python 3 |
-| **Environment File** | `requirements.txt` |
+| Component         | Description         |
+| ----------------- | ------------------- |
+| **Frontend**      | Streamlit (chat UI) |
+| **Backend / API** | Groq LLM API        |
+| **Deployment**    | Hugging Face Spaces |
+| **Language**      | Python 3            |
+| **Environment**   | `requirements.txt`  |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-
-├── app.py                # Main Streamlit application file
-├── requirements.txt      # List of dependencies
+├── app.py                # Main Streamlit app with chat interface
+├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
-
-````
+```
 
 ---
 
 ## ⚙️ Installation & Setup (Local or Colab)
 
 ### 1️⃣ Clone the repository
+
 ```bash
 git clone https://github.com/NareenAsad/NCEAC-HEC-GenAI-Projects.git
 cd <your-repo-name>
-````
+```
 
 ### 2️⃣ Install dependencies
 
@@ -62,7 +63,9 @@ pip install -r requirements.txt
 
 ### 3️⃣ Set your Groq API key
 
-Get your API key from [https://console.groq.com/keys](https://console.groq.com/keys)
+Get your API key from [https://console.groq.com/keys](https://console.groq.com/keys).
+
+Set it as an environment variable:
 
 ```python
 import os
@@ -79,9 +82,8 @@ streamlit run app.py
 
 ## 🌐 Deployed App
 
-You can access the live app here 👇
+Access the live app here:
 👉 **[Live on Hugging Face Spaces](https://huggingface.co/spaces/nareen99/Streamlit_HuggingFace_Deployment)**
-
 
 ---
 
@@ -99,17 +101,19 @@ You can access the live app here 👇
 
 ## 📚 Learning Outcomes
 
-Through this project, you’ll learn:
+By working on this project, you will learn:
 
-* How to create interactive front-ends with Streamlit
-* How to use Groq’s free LLM API
+* How to build conversational UIs with Streamlit’s chat components
+* How to manage session state for persistent chat history
+* How to interact with Groq’s free LLM API
+* How to handle errors gracefully in your app
 * How to deploy Streamlit apps on Hugging Face Spaces
 
 ---
 
 ## ✨ Acknowledgments
 
-This project was developed as part of the **NCEAC–HEC Generative AI Training Program (Cohort 1)**, powered by **Pak Angels** and partners.
-Special thanks to the instructors and organizers for enabling hands-on AI learning.
+This project is developed as part of the **NCEAC–HEC Generative AI Training Program (Cohort 1)** powered by **Pak Angels**.
+Special thanks to the instructors and organizers for empowering hands-on AI learning.
 
 ---
