@@ -8,7 +8,7 @@ This app allows users to enter expenses with descriptions, visualize their spend
 ## 🌐 Live Demo
 
 🚀 **Try it now on Hugging Face Spaces:**  
-👉 [AI Expense Analyzer – Hugging Face Demo](https://huggingface.co/spaces/nareenasad/ai-expense-analyzer)
+👉 [AI Expense Analyzer – Hugging Face Demo](https://huggingface.co/spaces/nareen99/AI-Expense-Analyzer)
 
 ---
 
@@ -179,5 +179,5 @@ python-dotenv
 
 ## ❤️ Credits
 
-Developed by **Nareen Asad**
-Powered by **Groq LLaMA 3.3 70B** and **Streamlit**
+* Developed by **Nareen Asad**
+* Powered by **Groq LLaMA 3.3 70B** and **Streamlit**
