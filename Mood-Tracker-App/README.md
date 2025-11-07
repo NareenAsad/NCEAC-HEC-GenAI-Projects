@@ -121,8 +121,6 @@ A table showing your latest logs (timestamp, description, mood, confidence).
 * Calming *Poppins* typography
 * “Notebook aesthetic” for clean daily journaling
 
-![UI Screenshot Example](docs/sample_ui.png)
-
 ---
 
 ## ⚠️ Troubleshooting
@@ -144,5 +142,3 @@ Built with:
 * [Gradio](https://gradio.app/)
 * [Matplotlib](https://matplotlib.org/)
 * [Pandas](https://pandas.pydata.org/)
-
----
