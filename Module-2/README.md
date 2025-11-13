@@ -106,6 +106,4 @@ Module-2/
 ## 🧑‍💻 Author
 
 - **Name:** Nareen Asad
-- **GitHub:** [@NareenAsad](https://github.com/NareenAsad)
-
 ---
