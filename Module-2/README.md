@@ -7,16 +7,8 @@ It demonstrates the full process of **idea creation → code generation → test
 
 ## 📚 Module Overview
 
-**Module Title:** Online Dev Platforms, Python Syntax, and Application Development with ChatGPT
-**Duration:** 26th – 31st October 2025
-**Instructors:**
-
-* Aqsa Abbasi
-* Muhammad Qasim
-* Muhammad Abdullah
-* Muhammad Talha
-* Ubaid Ullah
-* Fabeeha Raheel
+- **Module Title:** Online Dev Platforms, Python Syntax, and Application Development with ChatGPT
+- **Duration:** 26th – 31st October 2025
 
 ---
 
@@ -113,7 +105,7 @@ Module-2/
 
 ## 🧑‍💻 Author
 
-**Name:** Nareen Asad
-**GitHub:** [@NareenAsad](https://github.com/NareenAsad)
+- **Name:** Nareen Asad
+- **GitHub:** [@NareenAsad](https://github.com/NareenAsad)
 
 ---
