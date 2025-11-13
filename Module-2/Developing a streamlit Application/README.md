@@ -1,6 +1,6 @@
 # 💬 Groq LLM Chatbot — Streamlit + Hugging Face Deployment
 
-This project is part of **Module 1** of the **NCEAC–HEC Generative AI Training (Cohort 1)** by **Pak Angels**.
+This project is part of **Module 2** of the **NCEAC–HEC Generative AI Training (Cohort 1)** by **Pak Angels**.
 It demonstrates how to build, test, and deploy a **Streamlit-based LLM chatbot** powered by the **Groq API** with a modern conversational UI.
 
 ---
