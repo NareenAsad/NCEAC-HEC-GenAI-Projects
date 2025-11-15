@@ -1,0 +1,6 @@
+id,original_text,clean_text_lemmatized,clean_text_stemmed
+1,Hey!!!  Check out this website: https://example.com 😊 It's AMAZING!!!,hey check website amazing,hey check websit amaz
+2,Natural Language Processing is SO cool! 🚀🚀 Visit www.nlp.org for more info   ,natural language processing cool visit info,natur languag process cool visit info
+3,I'm learning Python!!!   It's really    helpful for DATA analysis 📊,im learning python really helpful data analysis,im learn python realli help data analysi
+4,Machine Learning models are    POWERFUL!! See: http://ml-info.com 💡,machine learning model powerful see,machin learn model power see
+5,Text preprocessing removes    noise!!!  😃 It makes data CLEAN and usable...,text preprocessing remove noise make data clean usable,text preprocess remov nois make data clean usabl

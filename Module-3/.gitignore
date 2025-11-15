@@ -18,10 +18,6 @@ env/
 env.bak/
 .venv.bak/
 
-# Jupyter / Colab
-.ipynb_checkpoints/
-*.ipynb
-
 # Hugging Face / datasets cache
 ~/.cache/huggingface/
 ~/.huggingface/
