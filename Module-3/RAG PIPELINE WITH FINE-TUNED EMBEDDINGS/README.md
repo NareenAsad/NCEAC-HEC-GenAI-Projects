@@ -4,6 +4,14 @@ A complete **Retrieval-Augmented Generation (RAG)** system built in Google Colab
 
 ---
 
+## 🚀 Try It Now!
+
+**Ready to get started?** Click the button below to open the notebook in Google Colab and run it instantly:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HgBD3vBsNlagdtfLw2BNGCVVrzJ7k4N7?usp=sharing)
+
+---
+
 ## 🎯 Overview
 
 This project implements a state-of-the-art RAG system that:
@@ -119,18 +127,26 @@ pip install -r requirements.txt
 
 ## 🚀 Quick Start
 
-### **Step 1: Clone/Download the Notebook**
+### **Option 1: Run in Google Colab (Recommended)**
 
-Open the notebook in Google Colab or Jupyter.
+Click the badge below to open the notebook directly in Colab:
 
-### **Step 2: Set Your API Key**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HgBD3vBsNlagdtfLw2BNGCVVrzJ7k4N7?usp=sharing)
+
+### **Option 2: Run Locally**
+
+**Step 1: Clone/Download the Notebook**
+
+Open the notebook in Jupyter.
+
+**Step 2: Set Your API Key**
 
 ```python
 GROQ_API_KEY = "your_groq_api_key_here"  # Get from https://console.groq.com
 MODEL_NAME = "llama-3.1-8b-instant"
 ```
 
-### **Step 3: Run All Cells**
+**Step 3: Run All Cells**
 
 The notebook will:
 1. Install dependencies
@@ -141,7 +157,7 @@ The notebook will:
 6. Run 3 test queries
 7. Display results with similarity scores
 
-### **Step 4: Test with Your Own Query**
+**Step 4: Test with Your Own Query**
 
 ```python
 query = "What are the vacation benefits?"
@@ -169,6 +185,5 @@ Built with:
 - [FAISS](https://github.com/facebookresearch/faiss) - Vector search
 - [Groq](https://groq.com/) - Fast LLM inference
 - [PyTorch](https://pytorch.org/) - Deep learning framework
-
 
 ---
