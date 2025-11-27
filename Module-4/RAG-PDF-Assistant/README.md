@@ -5,6 +5,13 @@ Ask questions from your PDFs or Google Drive documents instantly.
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **Try it now on Hugging Face Spaces:**  
+👉 [RAG-Based PDF Assistant – Hugging Face Demo](https://huggingface.co/spaces/nareen99/RAG-Based-Streamlit-App)
+
+---
+
 ## 🚀 Features
 
 ### ✅ **1. Upload PDFs or Use Google Drive Links**
@@ -27,7 +34,7 @@ Ask questions from your PDFs or Google Drive documents instantly.
 
 ### ✅ **4. Fast LLM Answers (Groq)**
 
-* Uses **LLaMA-3 8B (Groq hosted)**
+* Uses **openai/gpt-oss-20b (Groq hosted)**
 * Responds using both query + document context
 
 ### ✅ **5. Clean Streamlit UI**
@@ -117,7 +124,7 @@ faiss-cpu
 ## 🧠 Model Used
 
 * **Embedding Model:** sentence-transformers/all-MiniLM-L6-v2
-* **LLM:** LLaMA-3 8B (via Groq API)
+* **LLM:** openai/gpt-oss-20b (via Groq API)
 
 ---
 
