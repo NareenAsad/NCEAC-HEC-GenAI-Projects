@@ -1,0 +1,13 @@
+streamlit==1.26.0
+pandas
+numpy
+faiss-cpu
+sentence-transformers
+groq
+PyPDF2
+python-docx
+reportlab
+Pillow
+pytesseract
+PyMuPDF
+openpyxl
